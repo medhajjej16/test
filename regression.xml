@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+	<parameter name="browser" value="chrome" />
+	<test name="Regression Test" preserve-order="false">
+		<classes>
+
+			<class name="tests.UserRegistrationJavafake" />				
+			<class name="tests.WichListTest" />
+			<class name="tests.ChangeCurrencyTest" />			
+			<class name="tests.ProductHoverMenuTest" />
+
+
+		</classes>
+	</test>
+</suite> 
